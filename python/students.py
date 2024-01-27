@@ -12,4 +12,4 @@ to {} if you submit all assignments before the due date.\n\n"
 for name in names:
 	for assignment in assignments:
 		for grade in grades:
-			print(message.format(name, assignment, grade, 90))
+			print(message.format(name, assignment, grade, int(grade) + int(assignment)*2))
